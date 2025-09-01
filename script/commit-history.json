@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "81071d4978577106e7b30ad45a5fdce096cabc6b",
     "author": "Camila",
     "commit": {
       "date": "2025-09-01T19:33:57.000Z",
       "message": "feat: el jugador 2 marca un punto y jugador 1 en 0",
-      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/81071d4978577106e7b30ad45a5fdce096cabc6b"
     },
     "stats": {
       "total": 13,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-01T19:39:21.000Z",
+      "message": "feat: Ambos jugadores están empatados",
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 18,
+      "deletions": 14,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
