@@ -228,17 +228,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1a5331fa6a45a4604cd784f1a25c385eddf105a0",
     "author": "Camila",
     "commit": {
       "date": "2025-09-01T20:26:54.000Z",
       "message": "El Jugador 2 gana marcando 4 puntos",
-      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/1a5331fa6a45a4604cd784f1a25c385eddf105a0"
     },
     "stats": {
       "total": 14,
       "additions": 12,
       "deletions": 2,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-01T23:55:40.000Z",
+      "message": "feat: front para el programa tennis score",
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 13608,
+      "additions": 3937,
+      "deletions": 9671,
       "date": "2025-09-01"
     },
     "coverage": 100,
