@@ -4,7 +4,7 @@ class TennisScorer {
     this.player2Points = 0;
   }
   showScore() {
-    if (this.player1Points === this.player2Points) {
+    if (this.player1Points === this.player2Points && this.player2Points < 3) {
       return "Love - Love";
     } else if (this.player1Points === 1) {
       return "15 - Love";
@@ -14,18 +14,21 @@ class TennisScorer {
       return "40 - Love";
     } else if (this.player2Points === 1) {
       return "Love - 15";
-    }else if (this.player2Points === 2) {
+    } else if (this.player2Points === 2) {
       return "Love - 30";
-    }
-    else if (this.player2Points === 3) {
+    } else if (this.player2Points === 3) {
       return "Love - 40";
+    } else if (this.player1Points === 4 && this.player2Points === 4){
+      this.player1Points = 0;
+      this.player2Points = 0;
+      return "Deuce";
     }
-}
-player1Scores() {
-  this.player1Points++;
-}
-player2Scores() {
-  this.player2Points++;
-}
+  }
+  player1Scores() {
+    this.player1Points++;
+  }
+  player2Scores() {
+    this.player2Points++;
+  }
 }
 export default TennisScorer;
