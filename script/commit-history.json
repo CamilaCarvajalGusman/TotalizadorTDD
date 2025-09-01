@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9064220975f76f7ab3ed158259f445165f3577c",
     "author": "Camila",
     "commit": {
       "date": "2025-09-01T20:13:29.000Z",
       "message": "Ambos jugadores en deuce",
-      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/a9064220975f76f7ab3ed158259f445165f3577c"
     },
     "stats": {
       "total": 37,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-01T20:25:22.000Z",
+      "message": "El Jugador 1 gana marcando 4 puntos",
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

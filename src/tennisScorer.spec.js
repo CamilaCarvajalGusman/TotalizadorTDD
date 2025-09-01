@@ -26,6 +26,14 @@ describe("TennisScorer", () => {
     scorer.player1Scores();
     expect(scorer.showScore()).toEqual("40 - Love");
   });
+    it("El Jugador 1 gana marcando 4 puntos", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores(); 
+    expect(scorer.showScore()).toEqual("Game for Player 1");
+  });
   it("Ambos jugadores están empatados", () => {
     const scorer = new TennisScorer();
     expect(scorer.showScore()).toEqual("Love - Love");
