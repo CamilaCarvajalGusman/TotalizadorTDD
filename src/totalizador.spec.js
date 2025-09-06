@@ -1,4 +1,4 @@
-import ingresarDato from "./totalizador";
+import {ingresarDato, ingresarCodigoEst} from "./totalizador";
 
 describe("Totalizador de Ventas", () => {
     it("Ingresar y mostrar Cantidad de items", () => {
@@ -6,5 +6,8 @@ describe("Totalizador de Ventas", () => {
     });
     it("Ingresar y mostrar Precio por item", () => {
         expect(ingresarDato(19)).toEqual(19);
+    });
+    it("Ingresar y mostrar Código de estado", () => {
+        expect(ingresarCodigoEst("CA")).toEqual("CA");
     });
 });

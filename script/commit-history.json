@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ae07f27b49364c1152fe2dda3271888d04478b11",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T01:37:10.000Z",
       "message": "refactor: creación de variables outpunt para luego concatenarlas en div.innerHTML",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/ae07f27b49364c1152fe2dda3271888d04478b11"
     },
     "stats": {
       "total": 4,
@@ -357,6 +357,25 @@
     },
     "coverage": 66.67,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T01:46:14.000Z",
+      "message": "feat: Ingresar y mostrar Código de estado",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 25,
+      "deletions": 10,
+      "date": "2025-09-06"
+    },
+    "coverage": 68,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,4 +1,8 @@
 function ingresarDato(cantidad) {
     return cantidad;
 }
-export default ingresarDato;
+
+function ingresarCodigoEst(codigo){
+    return codigo;
+}
+export  {ingresarDato, ingresarCodigoEst};
