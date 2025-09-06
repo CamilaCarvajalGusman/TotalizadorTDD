@@ -2,7 +2,10 @@ function ingresarDato(cantidad) {
     return cantidad;
 }
 
-function ingresarCodigoEst(codigo){
+function ingresarCodigoEst(codigo) {
     return codigo;
 }
-export  {ingresarDato, ingresarCodigoEst};
+function calcularPrecioNeto(cantidad, precio) {
+    return cantidad * precio;
+}
+export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto };

@@ -1,4 +1,4 @@
-import {ingresarDato, ingresarCodigoEst} from "./totalizador";
+import {ingresarDato, ingresarCodigoEst, calcularPrecioNeto} from "./totalizador";
 
 describe("Totalizador de Ventas", () => {
     it("Ingresar y mostrar Cantidad de items", () => {
@@ -9,5 +9,8 @@ describe("Totalizador de Ventas", () => {
     });
     it("Ingresar y mostrar Código de estado", () => {
         expect(ingresarCodigoEst("CA")).toEqual("CA");
+    });
+    it("Mostrar el precio neto apretando el botón 'Totalizar'", () => {
+        expect(calcularPrecioNeto(45,3)).toEqual(135);
     });
 });

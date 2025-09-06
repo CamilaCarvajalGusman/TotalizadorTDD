@@ -1,4 +1,4 @@
-import {ingresarDato, ingresarCodigoEst } from "./totalizador";
+import { ingresarDato, ingresarCodigoEst, calcularPrecioNeto } from "./totalizador";
 
 const cantidad = document.querySelector("#cantidad");
 const precio = document.querySelector("#precio");
@@ -11,5 +11,6 @@ form.addEventListener("submit", (event) => {
   let cantidad_output = "<p> Cantidad: " + ingresarDato(Number.parseInt(cantidad.value)) + "</p>";
   let precio_output = "<p>Precio: " + ingresarDato(Number.parseInt(precio.value)) + "</p>";
   let codigo_output = "<p>Precio: " + ingresarCodigoEst(codigo.value) + "</p>";
-  div.innerHTML = cantidad_output + "<br>" + precio_output + "<br>" + codigo_output;
+  let precio_neto = "<p>Precio Neto: " + calcularPrecioNeto(Number.parseInt(cantidad.value), Number.parseInt(precio.value)) + "</p>";
+  div.innerHTML = cantidad_output + "<br>" + precio_output + "<br>" + codigo_output + "<br>" +precio_neto;
 });
