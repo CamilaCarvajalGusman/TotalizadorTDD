@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "10a00f4bfcc14c53313575feaccb8dcc6e464c2f",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T02:18:42.000Z",
       "message": "fix: arreglar identado de js y html",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/10a00f4bfcc14c53313575feaccb8dcc6e464c2f"
     },
     "stats": {
       "total": 18,
@@ -433,6 +433,25 @@
     },
     "coverage": 71.43,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T02:21:04.000Z",
+      "message": "feat: Mostrar el impuesto para TX y el total para este estado 6.25%",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-06"
+    },
+    "coverage": 73.33,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

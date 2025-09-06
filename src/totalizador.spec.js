@@ -16,4 +16,7 @@ describe("Totalizador de Ventas", () => {
     it("Mostrar el impuesto para CA y el total para este estado 8.25%", () => {
         expect(calcularImpuestoEstado("CA")).toEqual(8.25);
     });
+    it("Mostrar el impuesto para TX y el total para este estado 6.25%", () => {
+        expect(calcularImpuestoEstado("TX")).toEqual(6.25);
+    });
 });
