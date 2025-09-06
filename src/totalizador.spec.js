@@ -1,7 +1,7 @@
-import ingresarCantItems from "./totalizador";
+import ingresarDato from "./totalizador";
 
 describe("Totalizador de Ventas", () => {
     it("Ingresar y mostrar Cantidad de items", () => {
-        expect(ingresarCantItems(9)).toEqual(9);
+        expect(ingresarDato(9)).toEqual(9);
     });
 });

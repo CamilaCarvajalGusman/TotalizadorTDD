@@ -1,4 +1,4 @@
-function ingresarCantItems(cantidad) {
+function ingresarDato(cantidad) {
     return cantidad;
 }
-export default ingresarCantItems;
+export default ingresarDato;

@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7470dc85110cd9ac5745f927e78346f9572493c0",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T01:20:51.000Z",
       "message": "feat: Ingresar y mostrar Cantidad de items",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/7470dc85110cd9ac5745f927e78346f9572493c0"
     },
     "stats": {
       "total": 51,
       "additions": 26,
       "deletions": 25,
+      "date": "2025-09-06"
+    },
+    "coverage": 66.67,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T01:28:26.000Z",
+      "message": "refactor: cambio de nombre función a ingresarDato",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 47584,
+      "additions": 35126,
+      "deletions": 12458,
       "date": "2025-09-06"
     },
     "coverage": 66.67,
