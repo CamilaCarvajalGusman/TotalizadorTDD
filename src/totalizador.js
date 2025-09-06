@@ -8,8 +8,8 @@ function ingresarCodigoEst(codigo) {
 function calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
 }
-function calcularImpuestoEstado(codigo){
-    if(codigo === "CA"){
+function calcularImpuestoEstado(codigo) {
+    if (codigo === "CA") {
         return 8.25;
     }
 }

@@ -399,17 +399,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e787d8e1c95b3482f4f9724584c97dc8980bc98b",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T02:17:56.000Z",
       "message": "Mostrar el impuesto para CA y el total para este estado 8.25%",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/e787d8e1c95b3482f4f9724584c97dc8980bc98b"
     },
     "stats": {
       "total": 17,
       "additions": 13,
       "deletions": 4,
+      "date": "2025-09-06"
+    },
+    "coverage": 71.43,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T02:18:42.000Z",
+      "message": "fix: arreglar identado de js y html",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 9,
+      "deletions": 9,
       "date": "2025-09-06"
     },
     "coverage": 71.43,
