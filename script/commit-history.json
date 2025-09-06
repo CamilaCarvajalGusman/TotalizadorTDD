@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da44d93cd8d2baee80ad19913db83c3db5b186e7",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T02:21:54.000Z",
       "message": "fix: duplicado de texto precio en presenter.js (era label estado)",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/da44d93cd8d2baee80ad19913db83c3db5b186e7"
     },
     "stats": {
       "total": 2,
@@ -471,6 +471,25 @@
     },
     "coverage": 73.33,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T02:24:24.000Z",
+      "message": "feat: Mostrar el impuesto para AL y el total para este estado 4%",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-06"
+    },
+    "coverage": 75,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

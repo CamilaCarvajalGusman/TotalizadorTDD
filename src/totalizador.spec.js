@@ -19,4 +19,7 @@ describe("Totalizador de Ventas", () => {
     it("Mostrar el impuesto para TX y el total para este estado 6.25%", () => {
         expect(calcularImpuestoEstado("TX")).toEqual(6.25);
     });
+    it("Mostrar el impuesto para AL y el total para este estado 4%", () => {
+        expect(calcularImpuestoEstado("AL")).toEqual(4);
+    });
 });
