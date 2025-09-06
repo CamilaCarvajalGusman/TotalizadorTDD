@@ -34,4 +34,7 @@ describe("Totalizador de Ventas", () => {
     it("Mostrar el descuento si el precio > 3000 => 5%", () => {
         expect(calcularDescuento(3001)).toEqual(0.05);
     });
+    it("Mostrar el descuento si el precio > 7000 => 7%", () => {
+        expect(calcularDescuento(7901)).toEqual(0.07);
+    });
 });

@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "88067ad9841ec6215d962e5759f2bd054a9db964",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T16:55:16.000Z",
       "message": "feat: Mostrar el descuento si el precio > 3000 => 5%",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/88067ad9841ec6215d962e5759f2bd054a9db964"
     },
     "stats": {
       "total": 8,
@@ -623,6 +623,25 @@
     },
     "coverage": 76.74,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T17:01:00.000Z",
+      "message": "feat: Mostrar el descuento si el precio > 7000 => 7%",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2025-09-06"
+    },
+    "coverage": 77.78,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

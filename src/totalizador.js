@@ -23,9 +23,11 @@ function calcularImpuestoEstado(codigo) {
 }
 
 function calcularDescuento(precio) {
-    if (precio > 3000) {
+    if (precio > 7000) {
+        return 0.07;
+    }else if (precio > 3000) {
         return 0.05;
-    }if (precio > 1000) {
+    }else if (precio > 1000) {
         return 0.03;
     }else{
         return 0;
