@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "075aedda529ca3d00bf18933cbfd79c54a80904c",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T01:28:26.000Z",
       "message": "refactor: cambio de nombre función a ingresarDato",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/075aedda529ca3d00bf18933cbfd79c54a80904c"
     },
     "stats": {
       "total": 47584,
@@ -319,6 +319,25 @@
     },
     "coverage": 66.67,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T01:34:00.000Z",
+      "message": "feat: Ingresar y mostrar Precio por item",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2025-09-06"
+    },
+    "coverage": 66.67,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
