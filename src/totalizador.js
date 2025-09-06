@@ -25,22 +25,23 @@ function calcularImpuestoEstado(codigo) {
 function calcularDescuento(precio) {
     if (precio > 30000) {
         return 0.15;
-    }else if (precio > 10000) {
+    } else if (precio > 10000) {
         return 0.1;
-    }else if (precio > 7000) {
+    } else if (precio > 7000) {
         return 0.07;
-    }else if (precio > 3000) {
+    } else if (precio > 3000) {
         return 0.05;
-    }else if (precio > 1000) {
+    } else if (precio > 1000) {
         return 0.03;
-    }else{
+    } else {
         return 0;
     }
 }
 
 function calcularPrecioNeto(cantidad, precio, codigo) {
     let impuesto = parseFloat(calcularImpuestoEstado(codigo)) / 100;
-    return (cantidad * precio) + ((cantidad * precio) * impuesto);
+    let porcentaje_descuento = parseFloat(calcularDescuento(precio)) / 100;
+    return ((cantidad * precio) + ((cantidad * precio) * impuesto)) - ((cantidad * precio) + ((cantidad * precio) * impuesto) * porcentaje_descuento);
 
 }
 export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado, calcularDescuento };
