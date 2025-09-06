@@ -570,12 +570,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "f49fb347f7493fe6dceb3b7c074d3ff73b82fafa",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T16:40:59.000Z",
       "message": "perf: cambio de <br> por <hr>",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/f49fb347f7493fe6dceb3b7c074d3ff73b82fafa"
     },
     "stats": {
       "total": 2,
@@ -587,5 +587,24 @@
     "test_count": 21,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T16:52:29.000Z",
+      "message": "feat: Mostrar el descuento si el precio > 1000 => 3%",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 18,
+      "deletions": 7,
+      "date": "2025-09-06"
+    },
+    "coverage": 75.61,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

@@ -17,14 +17,21 @@ function calcularImpuestoEstado(codigo) {
         return 8;
     } else if (codigo === "UT") {
         return 6.65;
-    }else{
+    } else {
         return 0;
     }
 }
 
+function calcularDescuento(precio) {
+    if (precio > 1000) {
+        return 0.03;
+    }else{
+        return 0;
+    }
+}
 function calcularPrecioNeto(cantidad, precio, codigo) {
     let porcentaje = parseFloat(calcularImpuestoEstado(codigo)) / 100;
     return (cantidad * precio) + ((cantidad * precio) * porcentaje);
-    
+
 }
-export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado };
+export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado, calcularDescuento };

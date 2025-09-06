@@ -1,4 +1,4 @@
-import { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado } from "./totalizador";
+import { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado, calcularDescuento } from "./totalizador";
 
 describe("Totalizador de Ventas", () => {
     it("Ingresar y mostrar Cantidad de items", () => {
@@ -11,7 +11,7 @@ describe("Totalizador de Ventas", () => {
         expect(ingresarCodigoEst("CA")).toEqual("CA");
     });
     it("Mostrar el precio neto apretando el botón 'Totalizar'", () => {
-        expect(calcularPrecioNeto(45, 3, "CA")).toEqual(143.25);
+        expect(calcularPrecioNeto(45, 3, "CA")).toEqual(146.1375);
     });
     it("Mostrar el impuesto para CA y el total para este estado 8.25%", () => {
         expect(calcularImpuestoEstado("CA")).toEqual(8.25);
@@ -27,5 +27,8 @@ describe("Totalizador de Ventas", () => {
     });
     it("Mostrar el impuesto para UT y el total para este estado 6.65%", () => {
         expect(calcularImpuestoEstado("UT")).toEqual(6.65);
+    });
+    it("Mostrar el descuento si el precio > 1000 => 3%", () => {
+        expect(calcularDescuento(1001)).toEqual(0.03);
     });
 });
