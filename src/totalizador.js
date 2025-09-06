@@ -39,8 +39,8 @@ function calcularDescuento(precio) {
 }
 
 function calcularPrecioNeto(cantidad, precio, codigo) {
-    let porcentaje = parseFloat(calcularImpuestoEstado(codigo)) / 100;
-    return (cantidad * precio) + ((cantidad * precio) * porcentaje);
+    let impuesto = parseFloat(calcularImpuestoEstado(codigo)) / 100;
+    return (cantidad * precio) + ((cantidad * precio) * impuesto);
 
 }
 export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado, calcularDescuento };

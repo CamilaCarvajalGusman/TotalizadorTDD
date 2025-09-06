@@ -665,17 +665,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a0e09792ce716abbb4774058c537f7ac4f137ff9",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T17:08:19.000Z",
       "message": "feat: Mostrar el descuento si el precio > 30000 => 15%",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/a0e09792ce716abbb4774058c537f7ac4f137ff9"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2025-09-06"
+    },
+    "coverage": 79.59,
+    "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T17:10:25.000Z",
+      "message": "perf: cambio de nombre de variable porcentaje -> impuesto (más específico)",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2025-09-06"
     },
     "coverage": 79.59,
