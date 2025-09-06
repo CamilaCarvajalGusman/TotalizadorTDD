@@ -11,7 +11,7 @@ describe("Totalizador de Ventas", () => {
         expect(ingresarCodigoEst("CA")).toEqual("CA");
     });
     it("Mostrar el precio neto apretando el botón 'Totalizar'", () => {
-        expect(calcularPrecioNeto(45, 3)).toEqual(135);
+        expect(calcularPrecioNeto(45, 3, "CA")).toEqual(143.25);
     });
     it("Mostrar el impuesto para CA y el total para este estado 8.25%", () => {
         expect(calcularImpuestoEstado("CA")).toEqual(8.25);
