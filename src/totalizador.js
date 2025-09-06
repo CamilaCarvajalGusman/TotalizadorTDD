@@ -23,7 +23,8 @@ function calcularImpuestoEstado(codigo) {
 }
 
 function calcularPrecioNeto(cantidad, precio, codigo) {
-    return (cantidad * precio) + parseFloat(calcularImpuestoEstado(codigo));
+    let porcentaje = parseFloat(calcularImpuestoEstado(codigo)) / 100;
+    return (cantidad * precio) + ((cantidad * precio) * porcentaje);
     
 }
 export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado };

@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "93eb68e1213452ae977b81e6870de7e057eefcee",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T03:38:15.000Z",
       "message": "fix: return 0 en calcularImpuesto() + feat: calcularPrecioNeto()",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/93eb68e1213452ae977b81e6870de7e057eefcee"
     },
     "stats": {
       "total": 21,
@@ -549,5 +549,24 @@
     "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T16:39:30.000Z",
+      "message": "fix: calcularPrecioNeto + porcentaje",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
+      "date": "2025-09-06"
+    },
+    "coverage": 76.32,
+    "test_count": 21,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
