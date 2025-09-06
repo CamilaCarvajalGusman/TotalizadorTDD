@@ -551,17 +551,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8b49d50ba8962e20c00cb99cdb3cb240714d9739",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T16:39:30.000Z",
       "message": "fix: calcularPrecioNeto + porcentaje",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/8b49d50ba8962e20c00cb99cdb3cb240714d9739"
     },
     "stats": {
       "total": 5,
       "additions": 3,
       "deletions": 2,
+      "date": "2025-09-06"
+    },
+    "coverage": 76.32,
+    "test_count": 21,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T16:40:59.000Z",
+      "message": "perf: cambio de <br> por <hr>",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2025-09-06"
     },
     "coverage": 76.32,
