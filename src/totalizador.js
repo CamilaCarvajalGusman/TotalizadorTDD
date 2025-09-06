@@ -17,6 +17,8 @@ function calcularImpuestoEstado(codigo) {
         return 4;
     }else if (codigo === "NV") {
         return 8;
+    }else if (codigo === "UT") {
+        return 6.65;
     }
 }
 export { ingresarDato, ingresarCodigoEst, calcularPrecioNeto, calcularImpuestoEstado };

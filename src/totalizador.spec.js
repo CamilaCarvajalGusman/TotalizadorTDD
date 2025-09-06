@@ -25,4 +25,7 @@ describe("Totalizador de Ventas", () => {
     it("Mostrar el impuesto para NV y el total para este estado 8%", () => {
         expect(calcularImpuestoEstado("NV")).toEqual(8);
     });
+    it("Mostrar el impuesto para UT y el total para este estado 6.65%", () => {
+        expect(calcularImpuestoEstado("UT")).toEqual(6.65);
+    });
 });
