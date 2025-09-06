@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2cd8321ca98b47d35d086a8ae76a81eac6c36756",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T02:24:24.000Z",
       "message": "feat: Mostrar el impuesto para AL y el total para este estado 4%",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/2cd8321ca98b47d35d086a8ae76a81eac6c36756"
     },
     "stats": {
       "total": 5,
@@ -490,6 +490,25 @@
     },
     "coverage": 75,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T02:26:25.000Z",
+      "message": "feat: Mostrar el impuesto para NV y el total para este estado 8%",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-06"
+    },
+    "coverage": 76.47,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
