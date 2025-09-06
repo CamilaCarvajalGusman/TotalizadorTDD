@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2580ee56d96197491972cbfc2865b5b3f0595e4e",
     "author": "Camila",
     "commit": {
       "date": "2025-09-02T12:06:51.000Z",
       "message": "refactor: arreglo lógica clase tennisScorer + fix: recibir valor nulo del index.html",
-      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TenisTDD/commit/2580ee56d96197491972cbfc2865b5b3f0595e4e"
     },
     "stats": {
       "total": 53,
@@ -281,6 +281,25 @@
     },
     "coverage": 65.22,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T01:20:51.000Z",
+      "message": "feat: Ingresar y mostrar Cantidad de items",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 26,
+      "deletions": 25,
+      "date": "2025-09-06"
+    },
+    "coverage": 66.67,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
