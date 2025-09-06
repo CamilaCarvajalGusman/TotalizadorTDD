@@ -23,12 +23,15 @@ function calcularImpuestoEstado(codigo) {
 }
 
 function calcularDescuento(precio) {
-    if (precio > 1000) {
+    if (precio > 3000) {
+        return 0.05;
+    }if (precio > 1000) {
         return 0.03;
     }else{
         return 0;
     }
 }
+
 function calcularPrecioNeto(cantidad, precio, codigo) {
     let porcentaje = parseFloat(calcularImpuestoEstado(codigo)) / 100;
     return (cantidad * precio) + ((cantidad * precio) * porcentaje);
