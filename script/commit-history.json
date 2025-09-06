@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e05fff177f3ea395b4e4f86bb643f1cc391090ac",
     "author": "Camila",
     "commit": {
       "date": "2025-09-06T01:55:02.000Z",
       "message": "feat: Mostrar el precio neto apretando el botón 'Totalizar'",
-      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/e05fff177f3ea395b4e4f86bb643f1cc391090ac"
     },
     "stats": {
       "total": 19,
@@ -395,6 +395,25 @@
     },
     "coverage": 69.23,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-06T02:17:56.000Z",
+      "message": "Mostrar el impuesto para CA y el total para este estado 8.25%",
+      "url": "https://github.com/CamilaCarvajalGusman/TotalizadorTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 13,
+      "deletions": 4,
+      "date": "2025-09-06"
+    },
+    "coverage": 71.43,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
